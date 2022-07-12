@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title> @ TO DO LIST @</title>
+
+    <script defer src="/TODO/js/Todo.js" type="text/javascript" language="javascript"></script>
+    <link rel="stylesheet" href="/TODO/css/Todo.css">
+    
+</head>
+
+<body bgcolor="blue" >
+    <div>
+        <h1 id="first-h1">To-Do List</h1>
+        <div>
+            <input type="text" id="todo" placeholder="Enter the TODO List Data...">&emsp;
+            <button onclick="AddTodo(document.getElementById('todo').value)"> ADD </button>
+            <h1 id="second-h1">All the To do Data Details..</h1>
+            <div id="todolist">
+
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

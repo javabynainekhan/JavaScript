@@ -1,0 +1,26 @@
+
+        div{
+            text-align: center;
+        }
+        button{
+            color:red;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        input[type="text"]{
+            font-size: 20px;
+        }
+        #first-h1{
+            color: greenyellow;
+        }
+        #second-h1{
+            color: red;
+            text-shadow: 5px whitesmoke;
+        }
+        label{
+            color: chartreuse;
+            font-size: 25px;
+            padding-right: 50px;
+            font-style: italic;
+            font-weight: bold;
+        }
